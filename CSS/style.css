@@ -10,7 +10,7 @@ header{
 }
 
 body{
-    background-image: url("/bgw.png");
+    background-image: url("/image/bgw.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
