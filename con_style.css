@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(226, 218, 218);
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 1000px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: black;
+}
+header ul li a:hover{
+    background-color:rgb(177, 86, 86);
+      transition: 0.7s;
+    color: black;
+}
+footer p {
+    padding-top: 0px;
+    text-align: center;
+}
+main h2{
+    text-align: center;
+    font-size: 35px;
+}
+figure img{
+    text-align: center;
+}
+.card{
+    padding-left: 473px;
+    width: 250px;
+    height: 250px;
+    display: grid;
+    grid-template-rows: minmax(100%,1fr);
+    grid-template-areas: "stack";
+    overflow: hidden;    
+}
+.card>img,
+.card>figcaption{
+    grid-area: stack;
+}
+.card>img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.card>figcaption{
+    text-align: center;
+    grid-area: stack;
+    background-color: #6b6464e0;
+    transform: translateY(calc(100% - 4rem));
+    transition: transfrom 600ms;
+}
+.card>figcaption>h3{
+    height: 4rem;
+}
+.card:hover figcaption{
+    transform: none;
+}
+main div{
+    text-align: center;
+}
+main span{
+    font-weight: bold;
+    padding-left: 350px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+} 
+textarea{
+    background-color: transparent;
+}

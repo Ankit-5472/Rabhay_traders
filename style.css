@@ -1,0 +1,81 @@
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+body{
+    background-image: url("/bgw.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    position: absolute;
+    background-color:transparent;
+    color: white;
+    border:none; 
+    border-radius:15px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 20px;
+}
+.text{
+    padding-left: 580px;
+    padding-right: 580px;
+    padding-top: 0px;
+}
+button:hover{
+    
+    background-color:rgb(177, 86, 86);
+      transition: 0.7s;
+    color: black;
+    
+}
+footer p{
+    color: red;
+    text-align: center;
+    padding-top: 450px;
+    padding-right: inherit;
+    padding: auto;
+}
+
+main h1{
+    color: black;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+main p{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: black;
+}
+header ul li a:hover{
+    background-color:rgb(177, 86, 86);
+      transition: 0.7s;
+    color: black;
+}

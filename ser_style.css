@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(226, 218, 218);
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 1000px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: black;
+}
+header ul li a:hover{
+    background-color:rgb(177, 86, 86);
+      transition: 0.7s;
+    color: black;
+}
+
+footer p {
+    padding-top: 550px;
+    text-align: center;
+}
+main h2{
+    text-align: center;
+    font-size: 35px;
+}
+main p {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
